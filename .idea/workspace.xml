@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3beaf3f0-0525-43d2-83cf-4f18946446a7" name="Changes" comment="basics of selenium and how webdrivers work">
-      <change afterPath="$PROJECT_DIR$/src/Day2-selenium_Architecture/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2-selenium_Architecture/test_katalon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2-selenium_Architecture/test_lab03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2-selenium_Architecture/test_lab04_chrome_option.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2-selenium_Architecture/test_lab05.py" afterDir="false" />
+    <list default="true" id="3beaf3f0-0525-43d2-83cf-4f18946446a7" name="Changes" comment="selenium locators">
+      <change afterPath="$PROJECT_DIR$/src/Day3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/test_free_trial_link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/test_lab6_vwo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/test_tagname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/test_xpath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for src.Day1.test_lab01.test_sample.executor": "Run",
     "Python tests.Python tests for src.Day1.test_lab02.test_open_vwo_login.executor": "Run",
+    "Python tests.Python tests for src.Day3.test_free_trial_link.test_negative_vwo_free_trail_project3.executor": "Run",
+    "Python tests.Python tests for src.Day3.test_lab6_vwo.test_vwo_login.executor": "Run",
+    "Python tests.Python tests for src.Day3.test_tagname.test_4.executor": "Run",
+    "Python tests.Python tests for test_katalon.test_katalon_login.executor": "Run",
     "Python tests.Python tests for test_lab03.test_vwo_login.executor": "Run",
     "Python tests.Python tests for test_lab04_chrome_option.test_chrome_options.executor": "Run",
     "Python tests.Python tests for test_lab05.test_chrome_url_verify.executor": "Run",
@@ -65,8 +69,8 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_katalon.test_katalon_login">
-    <configuration name="Python tests for src.Day1.test_lab02.test_open_vwo_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for src.Day3.test_tagname.test_4">
+    <configuration name="Python tests for src.Day3.test_free_trial_link.test_negative_vwo_free_trail_project3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Py4XLearningSelenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +81,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.Day1.test_lab02.test_open_vwo_login&quot;" />
+      <option name="_new_target" value="&quot;src.Day3.test_free_trial_link.test_negative_vwo_free_trail_project3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.Day3.test_lab6_vwo.test_vwo_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py4XLearningSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.Day3.test_lab6_vwo.test_vwo_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.Day3.test_tagname.test_4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py4XLearningSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.Day3.test_tagname.test_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -93,36 +127,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_katalon.test_katalon_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_lab03.test_vwo_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py4XLearningSelenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lab03.test_vwo_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_lab04_chrome_option.test_chrome_options" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Py4XLearningSelenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lab04_chrome_option.test_chrome_options&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -143,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for src.Day3.test_tagname.test_4" />
+        <item itemvalue="Python tests.Python tests for src.Day3.test_free_trial_link.test_negative_vwo_free_trail_project3" />
+        <item itemvalue="Python tests.Python tests for src.Day3.test_lab6_vwo.test_vwo_login" />
         <item itemvalue="Python tests.Python tests for test_katalon.test_katalon_login" />
         <item itemvalue="Python tests.Python tests for test_lab05.test_chrome_url_verify" />
-        <item itemvalue="Python tests.Python tests for test_lab04_chrome_option.test_chrome_options" />
-        <item itemvalue="Python tests.Python tests for test_lab03.test_vwo_login" />
-        <item itemvalue="Python tests.Python tests for src.Day1.test_lab02.test_open_vwo_login" />
       </list>
     </recent_temporary>
   </component>
@@ -174,11 +178,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761379837142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="selenium locators">
+      <option name="closed" value="true" />
+      <created>1762330851261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762330851261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basics of selenium and how webdrivers work" />
-    <option name="LAST_COMMIT_MESSAGE" value="basics of selenium and how webdrivers work" />
+    <MESSAGE value="selenium locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium locators" />
   </component>
 </project>
